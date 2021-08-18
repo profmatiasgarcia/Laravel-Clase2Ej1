@@ -27,7 +27,7 @@ php artisan key:generate
 ```
 
 ## Apunte Tutorial de Laravel Framework Clase 2
-[Laravel-Clase1](https://www.profmatiasgarcia.com.ar/uploads/tutoriales/Laravel-Clase2.pdf)
+[Laravel-Clase2](https://www.profmatiasgarcia.com.ar/uploads/tutoriales/Laravel-Clase2.pdf)
 
 ## Licencia
 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
