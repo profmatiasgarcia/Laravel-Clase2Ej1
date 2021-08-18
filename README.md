@@ -1,23 +1,33 @@
 # Laravel-Clase2Ej1
-<p>Ejemplo 1 del Tutorial de Laravel Framework <b>Clase 2</b> </p> 
-<ul>
-  <li> Ejemplos Controladores</li>
-</ul>
-<br>
-<p> <b> Como instalar y utilizar este ejemplo </b></p>
-<ol>
-    <li>Instalar paquetes o dependencias, desde la terminal de VS Code o del OS estando en la carpeta del proyecto tipear </li>
-    <ul type="square">
-        <li>composer install</li>
-        <li>composer update</li>
-        <li>composer fund</li>
-    </ul>
-    <li>Realizar una copia del archivo .env.example</li>
-    <ul type="square">
-        <li>cp .env.example .env</li>
-    </ul>
-        <li>Generar APP_KEY que es una cadena de caracteres generada aleatoriamente por Laravel que utiliza para todas las cookies cifradas, como las cookies de sesión. Para generar la APP_KEY del proyecto ejecutar el siguiente comando </li>
-    <ul type="square">
-        <li>php artisan key:generate</li>
-    </ul>
-</ol>
+## Ejemplo 1 del Tutorial de Laravel Framework Clase 2
+
+  * Ejemplos Controladores
+
+## Como instalar y utilizar este ejemplo
+
+1. Instalar paquetes o dependencias, desde la terminal de VS Code o del OS estando en la carpeta del proyecto tipear
+```bash
+commposer install
+``` 
+```bash
+composer update
+```
+```bash
+composer fund
+ ```
+
+2. Realizar una copia del archivo .env.example
+```bash
+cp .env.example .env
+```
+
+3. Generar APP_KEY que es una cadena de caracteres generada aleatoriamente por Laravel que utiliza para todas las cookies cifradas, como las cookies de sesión. Para generar la APP_KEY del proyecto ejecutar el siguiente comando
+```bash
+php artisan key:generate
+```
+
+## Apunte Tutorial de Laravel Framework Clase 2
+[Laravel-Clase1](https://www.profmatiasgarcia.com.ar/uploads/tutoriales/Laravel-Clase2.pdf)
+
+## Licencia
+[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
