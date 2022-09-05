@@ -8,7 +8,7 @@ Route::get('/', function () {
 	return view('welcome');
 });
 
-/* Route::get('/usuarios', function () {
+Route::get('/usuarios', function () {
 	return 'USUARIOS';
 })->name('usuarios');
 
@@ -18,9 +18,9 @@ Route::get('/usuarios/{id}', function ($id) {
 
 Route::get('/usuarios/nuevo', function () {
 	return 'CREAR NUEVO USUARIO';
-})->name('nuevo_usuario'); */
+})->name('nuevo_usuario');
 
-/* Route::get('/saludo/{name}/{nickname?}', function ($name, $nickname = null) {
+Route::get('/saludo/{name}/{nickname?}', function ($name, $nickname = null) {
 	$name = ucfirst($name);
 
 	if ($nickname) {
@@ -28,11 +28,11 @@ Route::get('/usuarios/nuevo', function () {
 	} else {
 		return "Bienvenido {$name}";
 	}
-})->name('saludo'); */
+})->name('saludo');
 
-/*Route::view('/error', 'error', ['msg' => 'La Cagaste'])->name('error');*/
+Route::view('/error', 'error', ['msg' => 'La Cagaste'])->name('error');
 
-use App\Http\Controllers\UserController;
+/* use App\Http\Controllers\UserController;
 Route::get('usuarios',[UserController::class, 'inicio_usuarios'])->name('usuarios');
 
 Route::get('usuarios/{id}', [UserController::class, 'show_usuario'])->where('id', '[0-9]+')->name('muestra_usuario');
@@ -43,4 +43,4 @@ use App\Http\Controllers\SaludoController;
 Route::get('saludo/{name}/{nickname?}', SaludoController::class)->name('saludo');
 
 use App\Http\Controllers\ErrorController;
-Route::get('error', [ErrorController::class, 'mostrar'])->name('error');
+Route::get('error', [ErrorController::class, 'mostrar'])->name('error'); */
